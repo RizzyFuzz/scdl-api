@@ -1,6 +1,6 @@
 # SoundCloud API
 <p align="center">
-<a target="_blank" href="https://1000logos.net/wp-content/uploads/2021/04/Soundcloud-logo-768x432.png"><img src="https://1000logos.net/wp-content/uploads/2021/04/Soundcloud-logo-768x432.png" alt="" size="1"
+<a target="_blank" href="https://1000logos.net/wp-content/uploads/2021/04/Soundcloud-logo-768x432.png"><img src="https://1000logos.net/wp-content/uploads/2021/04/Soundcloud-logo-768x432.png" alt=""
 /></a>
 </p>
 
