@@ -1,7 +1,7 @@
 /**
  * Soundcloud API
  * Created by @RizzyFuzz
- * @module scdl-core
+ * @module scdl-api
  */
 
 const { version, author } = require("./package.json");
