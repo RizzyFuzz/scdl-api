@@ -78,7 +78,7 @@ await api.soundcloud(url).then(console.log);
 
 ## Search Content
 ```js
-await api.sndsearch("Fairy Tail w/Rizky NeverHere).then(console.log);
+await api.sndsearch("Fairy Tail w/Rizky NeverHere").then(console.log);
 ```
 > output:
 ```bash
