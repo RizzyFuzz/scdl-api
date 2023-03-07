@@ -4,6 +4,7 @@
 /></a>
 </p>
 
+<p align="center">
 <a target="_blank" href="//npmjs.com/scdl-api"><img src="https://img.shields.io/npm/dw/scdl-api?color=red&label=Downloads&logo=npm&style=flat"></a>
 <br>
 <a target="_blank" href="https://www.npmjs.com/package/scdl-api?activeTab=versions"><img src="https://img.shields.io/npm/v/scdl-api?color=green&label=version&logo=npm&style=social"></a>
