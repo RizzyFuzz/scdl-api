@@ -37,3 +37,40 @@ const api = require("scdl-api");
 ```
 
 # Docs
+
+## Get Metadata
+```js 
+api.downloader.tiktok(url).then(console.log);
+``
+> output:
+```bash
+{
+  title: 'Lost Control [w/Énemy & Ze]',
+  artist: 'RizzyFuzz (Hiatus)',
+  sharing: 'Public',
+  genre: 'Trap',
+  likes: '15',
+  comment: '2',
+  reposts: '9',
+  playback: '252',
+  duration: '00:03:52',
+  description: 'this cover art was made by someone on discord, follow him~\n' +
+    '• ZuzzyFuzz#8948',
+  user: {
+    artist: 'RizzyFuzz (Hiatus)',
+    username: 'rizzlogy',
+    permalink_url: 'https://soundcloud.com/rizzlogy',
+    track_count: '10',
+    followers: '94',
+    following: '0',
+    avatar_url: 'https://tinyurl.com/2gdto9dq'
+  },
+  media: {
+    avatar_url: 'https://tinyurl.com/2gdto9dq',
+    artwork_url: 'https://tinyurl.com/2kmgvb3r',
+    stream_url: 'https://tinyurl.com/2pf9ydr8'
+  },
+  status: 200,
+  creator: 'RizzyFuzz'
+}
+```
