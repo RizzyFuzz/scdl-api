@@ -41,7 +41,7 @@ const api = require("scdl-api");
 ## Get Metadata
 ```js 
 api.downloader.tiktok(url).then(console.log);
-``
+```
 > output:
 ```bash
 {
