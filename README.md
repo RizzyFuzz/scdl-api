@@ -3,11 +3,11 @@
 <a target="_blank" href="https://github.com/RizzyFuzz"><img src="https://avatars.githubusercontent.com/RizzyFuzz" alt="" width="169" /></a>
 </p>
 <p align="center">
-<a target="_blank" href="https://github.com/caliphdev"><img title="Author" src="https://img.shields.io/badge/Author-Caliphdev-red.svg?style=for-the-badge&logo=github" /></a>
+<a target="_blank" href="https://github.com/RizzyFuzz"><img title="Author" src="https://img.shields.io/badge/Author-RizzyFuzz-blue.svg?style=for-the-badge&logo=github" /></a>
 <br>
-<a target="_blank" href="//npmjs.com/caliph-api"><img src="https://img.shields.io/npm/dw/caliph-api?color=yellow&label=Downloads&logo=npm&style=flat"></a>
+<a target="_blank" href="//npmjs.com/scdl-core"><img src="https://img.shields.io/npm/dw/scdl-core?color=yellow&label=Downloads&logo=npm&style=flat"></a>
 <br>
-<a target="_blank" href="https://www.npmjs.com/package/caliph-api?activeTab=versions"><img src="https://img.shields.io/npm/v/caliph-api?color=green&label=version&logo=npm&style=social"></a>
+<a target="_blank" href="https://www.npmjs.com/package/scdl-core?activeTab=versions"><img src="https://img.shields.io/npm/v/scdl-core?color=green&label=version&logo=npm&style=social"></a>
 </p>
 
 # Note
