@@ -1,6 +1,7 @@
 # SoundCloud API
 <p align="center">
-<a target="_blank" href="https://github.com/RizzyFuzz"><img src="https://avatars.githubusercontent.com/RizzyFuzz" alt="" width="169" /></a>
+<a target="_blank" href="https://1000logos.net/wp-content/uploads/2021/04/Soundcloud-logo-768x432.png"><img src="https://1000logos.net/wp-content/uploads/2021/04/Soundcloud-logo-768x432.png" alt="" size="100"
+/></a>
 </p>
 <p align="center">
 <a target="_blank" href="https://github.com/RizzyFuzz"><img title="Author" src="https://img.shields.io/badge/Author-RizzyFuzz-blue.svg?style=for-the-badge&logo=github" /></a>
