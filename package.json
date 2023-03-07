@@ -7,6 +7,9 @@
   "scripts": {
     "start": "node ."
   },
+  "directories": {
+    "lib": "lib"
+  },
   "keywords": [],
   "author": {
     "name": "RizzyFuzz",
