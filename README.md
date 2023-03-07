@@ -24,7 +24,7 @@ please create [Issues](https://github.com/RizzyFuzz/scdl-api/issues/new)
 
 ## Latest
 
-`npm i github:caliphdev/scdl-api`
+`npm i github:RizzyFuzz/scdl-api`
 
 ## Npm
 
