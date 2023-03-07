@@ -57,7 +57,7 @@ api.downloader.tiktok(url).then(console.log);
   description: 'this cover art was made by someone on discord, follow him~\n' +
     '• ZuzzyFuzz#8948',
   user: {
-    artist: 'RizzyFuzz (Hiatus)',
+    artist: 'RizzyFuzz',
     username: 'rizzlogy',
     permalink_url: 'https://soundcloud.com/rizzlogy',
     track_count: '10',
@@ -74,3 +74,27 @@ api.downloader.tiktok(url).then(console.log);
   creator: 'RizzyFuzz'
 }
 ```
+
+## Search Content
+```js
+api.sndsearch("Fairy Tail w/Rizky NeverHere).then(console.log);
+```
+> output
+```bash
+{
+  result: [
+    {
+      title: 'Fairytail [w/Rizky NeverHere]',
+      url: 'https://m.soundcloud.com/rizzlogy/fairytail',
+      thumb: 'https://i1.sndcdn.com/artworks-Nj5PT4HnFoapu2P9-7jlE8Q-t240x240.jpg',
+      artist: 'RizzyFuzz',
+      views: '665',
+      release: '2w',
+      timestamp: '2:34'
+    }
+  ],
+  status: 200,
+  creator: 'RizzyFuzz'
+}
+```
+
