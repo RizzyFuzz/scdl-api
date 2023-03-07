@@ -40,7 +40,8 @@ const api = require("scdl-api");
 
 ## Get Metadata
 ```js 
-api.downloader.tiktok(url).then(console.log);
+let url = "https://m.soundcloud.com/rizzlogy/lost-kontol";
+await api.soundcloud(url).then(console.log);
 ```
 > output:
 ```bash
@@ -77,9 +78,9 @@ api.downloader.tiktok(url).then(console.log);
 
 ## Search Content
 ```js
-api.sndsearch("Fairy Tail w/Rizky NeverHere).then(console.log);
+await api.sndsearch("Fairy Tail w/Rizky NeverHere).then(console.log);
 ```
-> output
+> output:
 ```bash
 {
   result: [
