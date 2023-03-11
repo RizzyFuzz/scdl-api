@@ -96,7 +96,6 @@ await scdl.soundcloud(url).then(console.log);
 await scdl.sndsearch("CRUCIBLE [W/ ANTIKVNG]").then(console.log);
 ```
 > Response:
-  
 ```js
 {
   result: [
