@@ -52,6 +52,7 @@ please create [Issues](https://github.com/RizzyFuzz/scdl-api/issues/new)
 # 📕Docs
 
 ## 📄 Get Metadata
+
 ``` js
 let url = "https://soundcloud.com/prodbyscythe/crucible-w-antikvng";
 await scdl.soundcloud(url).then(console.log);
@@ -93,9 +94,12 @@ await scdl.soundcloud(url).then(console.log);
 </details>
   
 ## 🔎 Search Content
+
 ```js
 await scdl.sndsearch("CRUCIBLE [W/ ANTIKVNG]").then(console.log);
 ```
+
+
 <details>
 <summary>👉 Preview Response</summary>
   
