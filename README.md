@@ -38,14 +38,19 @@ please create [Issues](https://github.com/RizzyFuzz/scdl-api/issues/new)
 
 # 🛠️ Require
 
+<p align="center">
+
+<a target="_blank" href="https://nodei.co/npm/scdl-api/"><img src="https://nodei.co/npm/scdl-api.png?downloads=true&downloadRank=true&stars=true" alt="" height="100"
+
+/></a>
+
+</p>
+
 ```js
  const scdl = require("scdl-api");
 ```
 
-<p align="center">
-<a target="_blank" href="https://nodei.co/npm/scdl-api/"><img src="https://nodei.co/npm/scdl-api.png?downloads=true&downloadRank=true&stars=true" alt="" height="100"
-/></a>
-</p>
+
 
 # 📕Docs
 
@@ -58,7 +63,7 @@ await scdl.soundcloud(url).then(console.log);
 <details>
 <summary>👉 Preview Response</summary>
   
-```json
+```js
 {
   title: 'CRUCIBLE [W/ ANTIKVNG]',
   artist: 'sćythe',
@@ -97,7 +102,7 @@ await scdl.sndsearch("CRUCIBLE [W/ ANTIKVNG]").then(console.log);
 <details>
 <summary>👉 Preview Response</summary>
   
-```json
+```js
 {
   result: [
     {
