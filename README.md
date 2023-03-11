@@ -39,11 +39,8 @@ please create [Issues](https://github.com/RizzyFuzz/scdl-api/issues/new)
 # 🛠️ Require
 
 <p align="center">
-
 <a target="_blank" href="https://nodei.co/npm/scdl-api/"><img src="https://nodei.co/npm/scdl-api.png?downloads=true&downloadRank=true&stars=true" alt="" height="100"
-
 /></a>
-
 </p>
 
 ```js
