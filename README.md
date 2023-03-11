@@ -52,7 +52,7 @@ please create [Issues](https://github.com/RizzyFuzz/scdl-api/issues/new)
 
 ### 📄 Get Metadata
 
-``` js
+```js
 let url = "https://soundcloud.com/prodbyscythe/crucible-w-antikvng";
 await scdl.soundcloud(url).then(console.log);
 ```
