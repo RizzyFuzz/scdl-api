@@ -1,4 +1,3 @@
-# SoundCloud API
 <p align="center">
 <a target="_blank" href="https://1000logos.net/wp-content/uploads/2021/04/Soundcloud-logo-768x432.png"><img src="https://1000logos.net/wp-content/uploads/2021/04/Soundcloud-logo-768x432.png" alt="" height="100"
 /></a>
@@ -49,7 +48,7 @@ please create [Issues](https://github.com/RizzyFuzz/scdl-api/issues/new)
 /></a>
 </p>
 
-# 📕Docs
+
 
 ### 📄 Get Metadata
 
@@ -58,9 +57,7 @@ let url = "https://soundcloud.com/prodbyscythe/crucible-w-antikvng";
 await scdl.soundcloud(url).then(console.log);
 ```
 
-<details>
-<summary>👉 Preview Response</summary>
-  
+> Response
 ```js
 {
   title: 'CRUCIBLE [W/ ANTIKVNG]',
@@ -91,17 +88,14 @@ await scdl.soundcloud(url).then(console.log);
   creator: 'RizzyFuzz'
 }
 ```
-</details>
+
   
 ### 🔎 Search Content
 
 ```js
 await scdl.sndsearch("CRUCIBLE [W/ ANTIKVNG]").then(console.log);
 ```
-
-
-<details>
-<summary>👉 Preview Response</summary>
+> Response:
   
 ```js
 {
@@ -201,13 +195,10 @@ await scdl.sndsearch("CRUCIBLE [W/ ANTIKVNG]").then(console.log);
   creator: 'RizzyFuzz'
 }
 ```
-</details>
 
-### 💾 Downloading a Song With node-id3 Tags
 
-<details>
-<summary>👉 Preview Functions</summary>
-  
+### 💾 Downloading a Song With node-id3 Tags 
+
 ```js
 const scdl = require("scdl-api");
 const fs = require("fs");
@@ -275,6 +266,7 @@ async function downloadSong(url) {
 
 downloadSong("https://soundcloud.com/prodbyscythe/crucible-w-antikvng");
 ```
-</details>
+
+
 
 ### ©RizzyFuzz
