@@ -20,7 +20,7 @@ EN<br>
 If there are bugs,<br>
 please create [Issues](https://github.com/RizzyFuzz/scdl-api/issues/new)
 
-# 📈Highlight 
+### 📈Highlight 
 -   [x] Private client id & oauth request
 -   [x] Simple & easy to using
 -   [x] 100% Safe
@@ -28,30 +28,30 @@ please create [Issues](https://github.com/RizzyFuzz/scdl-api/issues/new)
 
 # ⚙️Installation
 
-## ⚙️ In Github
+### ⚙️ In Github
 
 > `npm i github:RizzyFuzz/scdl-api`
 
-## ⚙️ In Npm
+### ⚙️ In Npm
 
 > `npm i scdl-api`
 
 # 🛠️ Require
+
+
+
+```js
+ const scdl = require("scdl-api");
+```
 
 <p align="center">
 <a target="_blank" href="https://nodei.co/npm/scdl-api/"><img src="https://nodei.co/npm/scdl-api.png?downloads=true&downloadRank=true&stars=true" alt="" height="50"
 /></a>
 </p>
 
-```js
- const scdl = require("scdl-api");
-```
-
-
-
 # 📕Docs
 
-## 📄 Get Metadata
+### 📄 Get Metadata
 
 ``` js
 let url = "https://soundcloud.com/prodbyscythe/crucible-w-antikvng";
@@ -93,7 +93,7 @@ await scdl.soundcloud(url).then(console.log);
 ```
 </details>
   
-## 🔎 Search Content
+### 🔎 Search Content
 
 ```js
 await scdl.sndsearch("CRUCIBLE [W/ ANTIKVNG]").then(console.log);
@@ -203,7 +203,7 @@ await scdl.sndsearch("CRUCIBLE [W/ ANTIKVNG]").then(console.log);
 ```
 </details>
 
-# 💾 Downloading a Song With node-id3 Tags
+### 💾 Downloading a Song With node-id3 Tags
 
 <details>
 <summary>👉 Preview Functions</summary>
@@ -277,4 +277,4 @@ downloadSong("https://soundcloud.com/prodbyscythe/crucible-w-antikvng");
 ```
 </details>
 
-# ©RizzyFuzz
+### ©RizzyFuzz
