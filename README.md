@@ -229,7 +229,7 @@ async function downloadSong(url) {
 
     const filename = `${song.title}.mp3`;
 
-     ffmpeg.stdout.pipe(fs.createWriteStream(filename));
+    ffmpeg.stdout.pipe(fs.createWriteStream(filename));
 
     ffmpeg.stdin.write(audioBuffer);
     ffmpeg.stdin.end();
