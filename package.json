@@ -1,6 +1,6 @@
 {
-  "name": "scdl-core",
-  "version": "1.3.0",
+  "name": "scdl-api",
+  "version": "1.5.0",
   "description": "Unofficially SoundCloud API",
   "main": "index.js",
   "depecrated": false,
@@ -15,12 +15,13 @@
     "name": "RizzyFuzz",
     "email": "admin@rizzdev.my.id"
   },
+  "homepage": "https://scdl-api.rizzly.biz.id/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RizzyFuzz/scdl-core.git"
+    "url": "git+https://github.com/RizzyFuzz/scdl-api.git"
   },
   "bugs": {
-    "url": "https://github.com/RizzyFuzz/scdl-core/issues"
+    "url": "https://github.com/RizzyFuzz/scdl-api/issues"
   },
   "license": "ISC",
   "dependencies": {
